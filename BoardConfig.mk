@@ -20,3 +20,6 @@ TARGET_USES_MKE2FS := true
 
 # Releasetools
 TARGET_RELEASETOOLS_EXTENSIONS := $(DEVICE_PATH)/releasetools
+
+# SELinux
+BOARD_SEPOLICY_VERS := 27.0
